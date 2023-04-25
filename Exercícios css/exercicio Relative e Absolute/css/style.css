@@ -1,0 +1,36 @@
+/*Estudando posição relative e absolute*/
+
+.top-container {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  /*fica sobre os elementos */
+  position: relative;
+  /*movendo o elemento*/
+  left: 204px;
+  /*utilizando esse display para ficar um ao lado do outro*/
+  display: inline-block;
+}
+
+.middle-container {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  /*utilizando esse display para ficar um ao lado do outro*/
+  display: inline-block;
+  position: relative;
+  /*movendo o elemento*/
+  right: 2px;
+  
+}
+
+.bottom-container {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+   /*utilizando esse display para ficar um ao lado do outro*/
+   display: inline-block;
+   position: relative;
+   /*movendo o elemento*/
+   left:100px; 
+}
